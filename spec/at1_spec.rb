@@ -18,7 +18,7 @@ describe 'Applitools' , :type=>:feature, :js=>true do
         eyes.test(app_name: 'Applitools-Jenkins', test_name: 'Applitools-Jenkins-1',
         viewport_size: {width: 800, height: 600}, driver: driver) do
           
-          driver.get 'https://applitools.com/helloworld'
+          driver.get 'https://applitools.com/helloworld?diff2'
                 
           # Visual validation point #1
           eyes.check_window('Main Page')
