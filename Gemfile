@@ -62,6 +62,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'coveralls', require: false
   
+  ruby "~> 2.3.0"
 end
 
 group :development do
@@ -85,5 +86,7 @@ group :development do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'coveralls', require: false
+  
+  ruby "~> 2.3.0"
 end
 
