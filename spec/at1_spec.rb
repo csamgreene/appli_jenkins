@@ -12,6 +12,11 @@ describe 'Applitools' , :type=>:feature, :js=>true do
         # This is your api key, make sure you use it in all your tests.
         eyes.api_key = 'd1hQAwqXH04jtJ5wGIej01whl1108x4xRPK3SvsmXP3fA110'
             
+            
+        b = Applitools::BatchInfo.new "Simple AT - Jenkins Tests"
+        b.id = "1234"
+        eyes.batch = b      
+            
         driver = Selenium::WebDriver.for :chrome
             
         # Start visual testing with browser viewport set to 1024x768.
