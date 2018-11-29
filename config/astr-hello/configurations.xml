@@ -1,0 +1,32 @@
+<definitions>
+    <configuration name="firefox-small"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>firefox</driver>
+        <viewport width="800" height="480"></viewport>
+    </configuration>
+    <configuration name="firefox-medium"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>firefox</driver>
+        <viewport width="900" height="520"></viewport>
+    </configuration>
+    <configuration name="firefox-large"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>firefox</driver>
+        <viewport width="1024" height="576"></viewport>
+    </configuration>
+    <configuration name="chrome-small"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>chrome</driver>
+        <viewport width="800" height="480"></viewport>
+    </configuration>
+    <configuration name="chrome-medium"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>chrome</driver>
+        <viewport width="900" height="520"></viewport>
+    </configuration>
+    <configuration name="chrome-large"> 
+        <applitools>applitoolsConf.xml</applitools>
+        <driver>chrome</driver>
+        <viewport width="1024" height="576"></viewport>
+    </configuration>
+</definitions>

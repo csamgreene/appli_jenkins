@@ -1,0 +1,16 @@
+<job concurrent_runs="1">
+    <load>configurations.xml</load>
+    <batch name="Hello Eyes ASTR">
+        <test appname="Hello Eyes ASTR App" testname="Hello Eyes ASTR Test">
+            <!--<configurations names="firefox-small" />-->
+            <!--<configurations names="firefox-medium" />-->
+            <!--<configurations names="firefox-large" />-->
+            <configurations names="chrome-small" />
+            <!--<configurations names="chrome-medium" />-->
+            <configurations names="chrome-large" />
+            <execute>
+                <action type="crawl" from="sitemap.xml file" createSeparateTests="false">sitemap_lux.xml</action>
+            </execute>
+        </test>
+    </batch>
+</job>
