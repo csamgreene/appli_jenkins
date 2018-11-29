@@ -1,7 +1,7 @@
 <job concurrent_runs="1">
     <load>configurations.xml</load>
     <batch name="Hello Eyes ASTR">
-        <test appname="ASTR Appli Jenkins Local" testname="ASTR Appli Jenkins Local">
+        <test appname="ASTR Appli Jenkins Local 2" testname="ASTR Appli Jenkins Local 2">
 			<configurations names="chrome-large" />
             <!--<configurations names="firefox-small" />-->
             <!--<configurations names="firefox-medium" />-->
