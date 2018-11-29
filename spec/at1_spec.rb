@@ -15,7 +15,7 @@ describe 'Applitools' , :type=>:feature, :js=>true do
         driver = Selenium::WebDriver.for :chrome
             
         # Start visual testing with browser viewport set to 1024x768.
-        eyes.test(app_name: 'Applitools-Jenkins3', test_name: 'Applitools-Jenkins-3',
+        eyes.test(app_name: 'Applitools-Jenkins_4', test_name: 'Applitools-Jenkins-4',
         viewport_size: {width: 800, height: 600}, driver: driver) do
           
           # driver.get 'https://applitools.com/helloworld'
