@@ -1,0 +1,6 @@
+<settings>
+	<server>https://eyes.applitools.com/</server>
+	<apikey>envd1hQAwqXH04jtJ5wGIej01whl1108x4xRPK3SvsmXP3fA110</apikey> 
+	<hideScrollBars>true</hideScrollBars>
+   <!-- <WaitBeforeScreenshot>3000</WaitBeforeScreenshot> -->
+</settings>

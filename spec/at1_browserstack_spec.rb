@@ -25,9 +25,9 @@ describe 'Applitools and BrowserStack' , :type=>:feature, :js=>true do
         # Applitools api key.
         eyes.api_key = 'd1hQAwqXH04jtJ5wGIej01whl1108x4xRPK3SvsmXP3fA110'
 
-        b = Applitools::BatchInfo.new "Simple AT - Jenkins Tests"
-        b.id = "1234"
-        eyes.batch = b  
+        # b = Applitools::BatchInfo.new "Simple AT - Jenkins Tests"
+        # b.id = "1234"
+        # eyes.batch = b
                     
         # Start visual testing with browser viewport set to 1024x768.
         eyes.test(app_name: 'Applitools-Browserstack-Jenkins1', test_name: 'Applitools-Browserstack-Jenkins1',

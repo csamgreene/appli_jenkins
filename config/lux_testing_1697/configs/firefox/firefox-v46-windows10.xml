@@ -1,0 +1,10 @@
+<settings>
+	<url>http://christophergreen8:sgizbBXbnNtEyhbmmBgX@hub-cloud.browserstack.com/wd/hub</url>
+	
+	<capabilities>
+		<browserName>firefox</browserName>
+		<platform>WINDOWS</platform>
+		<version>63.0</version>
+	</capabilities>
+
+</settings>

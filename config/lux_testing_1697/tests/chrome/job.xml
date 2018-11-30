@@ -1,0 +1,12 @@
+<job concurrent_runs="1">
+   <load>/Users/christophergreene/appli_jenkins/config/lux_testing_1697/configs/configurations.xml</load>
+	<batch name="Lux">
+		<test appname="luxresearchinc.com" testname="Crawl Lux Sitemap">
+			<configurations names="chrome" />
+			<execute>
+				<action type="crawl" from="sitemap.xml file" createSeparateTests="true" path="../../sitemap.xml">
+            </action>
+			</execute>
+		</test>
+	</batch>
+</job>

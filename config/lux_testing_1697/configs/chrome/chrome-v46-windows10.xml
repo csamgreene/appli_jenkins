@@ -1,0 +1,10 @@
+<settings>
+	<url>http://christophergreen8:sgizbBXbnNtEyhbmmBgX@hub-cloud.browserstack.com/wd/hub</url>
+	
+	<capabilities>
+		<browserName>chrome</browserName>
+		<platform>WINDOWS</platform>
+		<version>46.0</version>
+	</capabilities>
+
+</settings>

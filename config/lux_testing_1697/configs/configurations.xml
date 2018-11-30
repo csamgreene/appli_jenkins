@@ -1,0 +1,24 @@
+<definitions>
+	<configurationGroup groupName ="desktop" configurationsNames ="firefox, chrome"/>
+   
+   <ChromeOptions name="ChromeOptions">
+		<argument>ignore-ssl-errors</argument>
+      <argument>disable-infobars</argument>
+	</ChromeOptions>
+   
+   <configuration name="chrome">
+      <applitools>/Users/christophergreene/appli_jenkins/config/lux_testing_1697/configs/applitoolsConf.xml</applitools>
+      <driver>/Users/christophergreene/appli_jenkins/config/lux_testing_1697/configs/chrome/chrome-v46-windows10.xml</driver>
+      <viewport width="800" height="600" />
+   </configuration>
+   
+   <FirefoxOptions name="FirefoxOptions">
+		<argument>headless</argument>
+	</FirefoxOptions>
+   
+   <configuration name="firefox">
+      <applitools>/Users/christophergreene/appli_jenkins/config/lux_testing_1697/configs/applitoolsConf.xml</applitools>
+      <driver>/Users/christophergreene/appli_jenkins/config/lux_testing_1697/configs/firefox/firefox-v46-windows10.xml</driver>
+      <viewport width="800" height="600" />
+   </configuration>
+</definitions>
