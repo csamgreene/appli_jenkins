@@ -30,11 +30,12 @@ describe 'Applitools and BrowserStack' , :type=>:feature, :js=>true do
         # eyes.batch = b
                     
         # Start visual testing with browser viewport set to 1024x768.
-        eyes.test(app_name: 'Applitools-Browserstack-Jenkins1', test_name: 'Applitools-Browserstack-Jenkins1',
+        eyes.test(app_name: 'Applitools-Browserstack-Jenkins1 - Ezra1', test_name: 'Applitools-Browserstack-Jenkins1 - Ezra1',
                   viewport_size: {width: 800, height: 600}, driver: driver) do
           
           driver.get 'https://applitools.com/helloworld'
           # driver.get 'https://applitools.com/helloworld?diff2'
+          # driver.get 'members.luxresearchinc.com'
                 
           # Visual validation point #1
           eyes.check_window('Main Page')

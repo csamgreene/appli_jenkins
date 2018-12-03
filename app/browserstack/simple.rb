@@ -28,7 +28,7 @@ puts "Driver: #{driver}"
 
   puts "Start visual testing"
   # Start visual testing with browser viewport set to 1024x768.
-  eyes.test(app_name: 'Applitools-Browserstack', test_name: 'Applitools-Browserstack',
+  eyes.test(app_name: 'Applitools-Browserstack - Ezra1', test_name: 'Applitools-Browserstack - Ezra',
             viewport_size: {width: 800, height: 600}, driver: driver) do
     
     driver.navigate.to 'https://applitools.com/helloworld'

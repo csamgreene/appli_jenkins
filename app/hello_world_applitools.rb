@@ -10,7 +10,7 @@ driver = Selenium::WebDriver.for :safari
 
 begin
   # Start the test and set the browser's viewport size to 800x600.
-  eyes.test(app_name: 'Hello World Safari1', test_name: 'My Safari1 Selenium Ruby test!',
+  eyes.test(app_name: 'Hello World Safari1-Ezra1', test_name: 'My Safari1 Selenium Ruby test!-Ezra1',
             viewport_size: {width:800, height:600}, driver: driver) do
               
     eyes.baseline_name='ApplitoolsHelloWorld-Safari'
