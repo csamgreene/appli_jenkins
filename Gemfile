@@ -52,6 +52,7 @@ group :development, :test do
   # gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
   gem "parallel"
   gem "browserstack-local"
+  gem 'rspec_junit_formatter' # Allows to inspect rspec output as junit output in Jenkins
   
   gem 'rspec-rails'
   gem 'shoulda-matchers'
